@@ -1,0 +1,25 @@
+body {
+  max-width: 900px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+
+input, button {
+  padding: 8px;
+}
+
+#list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+#list article {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#list img {
+  width: 100%;
+}
